@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fname">FirstName</string>
+    <string name="lname">LastName</string>
+    <string name="sex">Gender</string>
+    <string name="lang">Languages</string>
+    <string name="lang_c">Python</string>
+    <string name="lang_java">Java</string>
+    <string name="lang_ios">IOS</string>
+    <string name="save">Save Details</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+      <string name="female">Female</string>
+     <string name="hint_fname">Your First Name</string>
+      <string name="hint_lname">Your SurName</string>
+      <string name="dl_cont">Continue</string>
+        <string name="dl_ok">OK</string>
+		  <string name="dl_exit">Exit</string>
+</resources>

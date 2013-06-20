@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/texture"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/texture" >
+
+      
+
+        <EditText
+            android:id="@+id/et_fname"
+            style="@style/Holo.EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+            android:hint="@string/hint_fname"
+            
+             />
+
+        
+
+        <EditText
+            android:id="@+id/et_lname"
+            style="@style/Holo.EditText"
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_fname"
+            android:layout_marginTop="20dp"
+           
+            android:hint="@string/hint_lname" />
+
+
+        <RadioGroup
+            android:id="@+id/rd_gender"
+          android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_lname"
+          android:layout_marginTop="20dp"
+           
+             >
+
+            <RadioButton
+                android:id="@+id/rd_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                 android:textSize="@dimen/labels"
+                 style="@style/Holo.CompoundButton.RadioButton"
+                 />
+
+            <RadioButton
+                android:id="@+id/rd_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="@dimen/labels"
+                 style="@style/Holo.CompoundButton.RadioButton"
+                android:text="@string/female" />
+        </RadioGroup>
+<CheckBox android:id="@+id/cb_c" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rd_gender"
+          android:layout_marginTop="20dp"
+          android:text="@string/lang_c"
+            style="@style/Holo.CompoundButton.CheckBox"
+    />    
+    <CheckBox android:id="@+id/cb_java" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb_c"
+          style="@style/Holo.CompoundButton.CheckBox"
+          android:text="@string/lang_java"
+    />    
+      <CheckBox android:id="@+id/cb_ios" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb_java"
+        style="@style/Holo.CompoundButton.CheckBox"
+          android:text="@string/lang_ios"
+    />      
+  
+    </RelativeLayout>
+
+</ScrollView>

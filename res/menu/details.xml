@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/del"
+   
+    
+   android:showAsAction="always|withText"
+   android:icon="@drawable/ic_del"
+    style="@style/Theme.Sherlock"
+    />
+   <item android:id="@+id/edit"
+   
+    
+   android:showAsAction="always|withText"
+   android:icon="@android:drawable/ic_input_add"
+    style="@style/Theme.Sherlock"
+    />
+</menu>
